@@ -1,0 +1,6 @@
+Matrikon.OPC.Simulation.1
+10
+Bucket Brigade.Real4,Bucket Brigade.String,Random.Boolean,Random.Int1,Random.Int4,Random.Real8,Random.Real4
+Caminhao1_MinerioSP,Caminhao1_MotoristaID,Caminhao1_StatusArCon,Caminhao1_Velocidade,Caminhao1_ConsComb,Caminhao2_ConsComb,Usina1_Balanca
+Qtde. Minerio SP,Motorista do Caminhao,Status Ar Condicionado,Velocidade do Caminhao,Consumo de Comb. do Caminhao,Consumo de Comb. do Caminhao,Medicao Balanca
+ton,-,Digital,km/h,L/s,L/s,ton
