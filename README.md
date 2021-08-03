@@ -1,4 +1,4 @@
-# Open PIMS for Industry 4.0
+# Open PIMS para a Indústria 4.0
 
 O objetivo é difundir o Desenvolvimento de uma Aplicação de Gerenciamento de Informações da Planta (PIMS) para Indústria 4.0, em que ocorre a coleta de dados operacionais, a escrita desses dados em um banco de dados temporal, em que o utilizado foi o InfluxDB, a leitura desses dados através de uma planilha padrão no excel e a criação de painéis de observação no Grafana. O sistema criado possui licença livre, o que torna-o acessível para ser implementado em empresas menores e laboratórios de universidades.
 
@@ -17,6 +17,7 @@ Antes da execução do sistema, instale os seguintes programas:
 
 Com as configurações realizadas, basta realizar os procedimentos abaixo:
 1. Preencher o arquivo _config.txt_ com as informações necessárias como estão abaixo:
+
 Itens necessários | config.txt
 --------- | ------:
 Servidor OPC | Matrikon.OPC.Simulation.1  		                          
@@ -24,7 +25,8 @@ Perído de atualização em segundos | 10
 Endereço OPC | Bucket Brigade.Real4,Bucket Brigade.String
 Tags | Caminhao1_MinerioSP,Caminhao1_MotoristaID          
 Descrição das Tags | Qtde. Minerio SP,Motorista do Caminhao 1          
-Unidade de Engenharia das Tags | ton,- 
+Unidade de Engenharia das Tags | ton,-
+
 2. Iniciar a aplicação InfluxDB e criar os _Databases Definicoes_ e _Dados_ através do comando _CREATE DATABASE_;
 3. Executar a aplicação _definicoes.py_, responsável pela escrita das informações relevantes das _Tags_ no _Database Definicoes_;
 4. Iniciar o _MatrikonOPC Explorer_, conectar ao servidor, criar um grupo com a taxa de atualização desejada e inserir os endereços OPC disponíveis no servidor;
