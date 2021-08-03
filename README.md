@@ -32,4 +32,4 @@ Unidade de Engenharia das Tags | ton,-
 4. Iniciar o _MatrikonOPC Explorer_, conectar ao servidor, criar um grupo com a taxa de atualização desejada e inserir os endereços OPC disponíveis no servidor;
 5. Executar a aplicação _opc.py_, responsável pela escrita dos valores coletados no servidor no _Database Dados_;
 6. Iniciar o _Grafana_, configurando a aplicação e criando os _dashboards_.
-7. Utilizar a planilha padrão _extract.xlsm_, para exportar cálculos e valores para o _Microsoft Excel_.
+7. Utilizar a planilha padrão _extract.xlsm_, para exportar cálculos e valores para o _Microsoft Excel_. Essa extração é possível por meio da macro criada, que se chama _GetDados_.
