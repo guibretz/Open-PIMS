@@ -21,7 +21,7 @@ Com as configurações realizadas, basta realizar os procedimentos abaixo:
 Itens necessários | config.txt
 --------- | ------:
 Servidor OPC | Matrikon.OPC.Simulation.1  		                          
-Perído de atualização em segundos | 10                        
+Período de atualização em segundos | 10                        
 Endereço OPC | Bucket Brigade.Real4,Bucket Brigade.String
 Tags | Caminhao1_MinerioSP,Caminhao1_MotoristaID          
 Descrição das Tags | Qtde. Minerio SP,Motorista do Caminhao 1          
